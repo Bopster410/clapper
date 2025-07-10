@@ -1,7 +1,7 @@
 import type { FunctionComponent } from 'react';
 import type { ContainerProps } from './index.types';
 import { FiltersCard } from './index.component';
-import { useFilters } from '../model';
+import { useFilters } from '@/model';
 
 export const FiltersCardContainer: FunctionComponent<ContainerProps> = () => {
     const [{ year, rating, genres }, { setYear, setRating, setGenre }] =

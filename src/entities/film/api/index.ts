@@ -1,4 +1,4 @@
-import type { KpApiResponse } from '../../../shared/api';
+import type { KpApiResponse } from '@/shared/api';
 import { FILMS_MOCK, GENRES_MOCK } from './index.constants';
 import type { FilmResponseShort, Genre } from './index.types';
 
