@@ -1,0 +1,1 @@
+export { FilmsWithFilters } from './ui';
