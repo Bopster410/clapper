@@ -1,10 +1,10 @@
 import { type FunctionComponent, useEffect, useState } from 'react';
 import type { Props } from './index.types';
 import { Grid } from '@mui/material';
-import { type FilmCardProps, FilmCard } from '../../../entities/film';
-import { getFilmList } from '../../../entities/film/api';
-import { FiltersCardContainer } from '../../../features/filters/ui/index.container.context';
-import { FiltersProvider } from '../../../features/filters';
+import { type FilmCardProps, FilmCard } from '@/entities/film';
+import { getFilmList } from '@/entities/film/api';
+import { FiltersCardContainer } from '@/features/filters/ui/index.container.context';
+import { FiltersProvider } from '@/features/filters';
 
 export const FilmsWithFilters: FunctionComponent<Props> = ({
     initialFilters,

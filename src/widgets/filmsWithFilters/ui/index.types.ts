@@ -1,4 +1,4 @@
-import type { NumbersRange } from '../../../shared/types';
+import type { NumbersRange } from '@/shared/types';
 
 export interface Props {
     initialFilters?: {

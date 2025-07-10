@@ -1,6 +1,6 @@
 import { useState, type FunctionComponent } from 'react';
 import type { ContainerApiProps } from './index.types';
-import { getFilmGenres, type Genre } from '../../../../../entities/film';
+import { getFilmGenres, type Genre } from '@/entities/film';
 import { GenresFilter } from './index.component';
 export const GenresFilterContainerApi: FunctionComponent<ContainerApiProps> = ({
     value,
