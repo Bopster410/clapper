@@ -1,0 +1,1 @@
+export { FilmRatingKp } from './ui';
