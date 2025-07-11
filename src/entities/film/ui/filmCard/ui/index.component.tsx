@@ -16,10 +16,11 @@ export const FilmCard: FunctionComponent<Props> = ({
     year,
     imageSrc,
     rating,
+    id,
 }) => {
     return (
         <Card>
-            <CardActionArea>
+            <CardActionArea href={`/film/${id}`}>
                 <CardMedia
                     image={imageSrc}
                     title={title}
