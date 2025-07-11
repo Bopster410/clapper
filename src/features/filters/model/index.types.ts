@@ -1,5 +1,5 @@
-import type { Genre } from '../../../entities/film';
-import type { NumbersRange } from '../../../shared/types';
+import type { Genre } from '@/entities/film';
+import type { NumbersRange } from '@/shared/types';
 
 export interface State {
     genres: Genre[];

@@ -1,4 +1,4 @@
-import type { Genre } from '../../../../../entities/film';
+import type { Genre } from '@/entities/film';
 
 export interface Props {
     open?: boolean;
