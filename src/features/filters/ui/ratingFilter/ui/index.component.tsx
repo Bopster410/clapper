@@ -1,4 +1,4 @@
-import { Grid, Input } from '@mui/material';
+import { Grid, TextField } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import type { Props } from './index.types';
 export const RatingFilter: FunctionComponent<Props> = ({
@@ -58,30 +58,36 @@ export const RatingFilter: FunctionComponent<Props> = ({
             sx={{ alignItems: 'center' }}
         >
             <Grid>
-                <Input
+                <TextField
+                    label='от'
                     value={value[0]}
                     size='small'
                     onChange={handleMinInputChange}
                     onBlur={handleMinBlur}
-                    inputProps={{
-                        step: 0.1,
-                        min: minRating,
-                        max: maxRating,
-                        type: 'number',
+                    slotProps={{
+                        htmlInput: {
+                            step: 0.1,
+                            min: minRating,
+                            max: maxRating,
+                            type: 'number',
+                        },
                     }}
                 />
             </Grid>
             <Grid>
-                <Input
+                <TextField
+                    label='до'
                     value={value[1]}
                     size='small'
                     onChange={handleMaxInputChange}
                     onBlur={handleMaxBlur}
-                    inputProps={{
-                        step: 0.1,
-                        min: minRating,
-                        max: maxRating,
-                        type: 'number',
+                    slotProps={{
+                        htmlInput: {
+                            step: 0.1,
+                            min: minRating,
+                            max: maxRating,
+                            type: 'number',
+                        },
                     }}
                 />
             </Grid>

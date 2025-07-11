@@ -2,6 +2,7 @@ import { Box, Chip, Container, Grid, Typography } from '@mui/material';
 import type { FunctionComponent } from 'react';
 // import { useParams } from 'react-router';
 import type { Props } from './index.types';
+import { FilmRatingKp } from '@/entities/film';
 
 export const FilmPage: FunctionComponent<Props> = ({
     title,
@@ -62,24 +63,14 @@ export const FilmPage: FunctionComponent<Props> = ({
                     <Typography variant='body1'>{description}</Typography>
                 </Grid>
                 <Grid size={3}>
-                    <Typography
-                        variant='h4'
-                        sx={{
-                            fontWeight: '700',
-                            color:
-                                rating.kp >= 7
-                                    ? 'var(--color-green-500)'
-                                    : rating.kp >= 6
-                                    ? 'var(--color-orange-500)'
-                                    : 'var(--color-red-500)',
-                        }}
-                        component='span'
-                    >
-                        {Math.round(rating.kp * 10) / 10}
-                    </Typography>
+                    <FilmRatingKp
+                        rating={rating.kp}
+                        range={{ min: 0, max: 10 }}
+                        variant='header'
+                    />
                     <Grid
                         container
-                        columnSpacing={0.5}
+                        spacing={0.5}
                         sx={{ marginTop: '12px' }}
                     >
                         {genres.map(({ name }) => (

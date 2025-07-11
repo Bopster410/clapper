@@ -6,9 +6,7 @@ import { getFilmList } from '@/entities/film/api';
 import { FiltersCardContainer } from '@/features/filters/ui/index.container.context';
 import { FiltersProvider } from '@/features/filters';
 
-export const FilmsWithFilters: FunctionComponent<Props> = ({
-    initialFilters,
-}) => {
+export const FilmsWithFilters: FunctionComponent<Props> = () => {
     const [films, setFilms] = useState<FilmCardProps[]>([]);
     useEffect(() => {
         const timeout = setTimeout(() => {
@@ -38,9 +36,12 @@ export const FilmsWithFilters: FunctionComponent<Props> = ({
 
     return (
         <FiltersProvider>
-            <Grid container>
+            <Grid
+                container
+                columnSpacing={2}
+            >
                 <Grid size={4}>
-                    <FiltersCardContainer initialFilters={initialFilters} />
+                    <FiltersCardContainer />
                 </Grid>
                 <Grid size={8}>
                     <Grid
@@ -49,8 +50,8 @@ export const FilmsWithFilters: FunctionComponent<Props> = ({
                     >
                         {films.map(({ id, title, year, rating, imageSrc }) => (
                             <Grid
-                                size={{ xs: 6, md: 2 }}
-                                sx={{ maxWidth: 150 }}
+                                size={{ xs: 6, md: 3 }}
+                                // sx={{ maxWidth: 150 }}
                             >
                                 <FilmCard
                                     id={id}
