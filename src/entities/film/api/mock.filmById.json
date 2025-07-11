@@ -1,0 +1,976 @@
+{
+    "id": 361,
+    "externalId": {
+        "kpHD": "44f2da0d8ace7b0ab1889e03a6a52d37",
+        "imdb": "tt0137523",
+        "tmdb": 550
+    },
+    "name": "Бойцовский клуб",
+    "alternativeName": "Fight Club",
+    "enName": null,
+    "names": [
+        {
+            "name": "Mo'adon Krav",
+            "language": "IL",
+            "type": "Romanization"
+        },
+        {
+            "name": "Borilački klub",
+            "language": "RS",
+            "type": "Romanization"
+        },
+        {
+            "name": "Boytsovskiy klub",
+            "language": "RU",
+            "type": "Romanization"
+        },
+        {
+            "name": "Boen klub",
+            "language": "BG",
+            "type": "Romanization"
+        },
+        {
+            "name": "Biytsivsʹkyy klub",
+            "language": "UA",
+            "type": "Romanization"
+        },
+        {
+            "name": "Байцоўскі клюб",
+            "language": "BY",
+            "type": "Classical Orthography"
+        },
+        {
+            "name": "Döyüshçü Klubu",
+            "language": "AZ",
+            "type": "Alternative"
+        },
+        {
+            "name": "მალჷმორეფიშ კლუბი",
+            "language": "GE",
+            "type": "Mingrelian"
+        },
+        {
+            "name": "Մարտական ակումբ",
+            "language": "AM",
+            "type": null
+        },
+        {
+            "name": "النادي د لمدابزة",
+            "language": "MA",
+            "type": null
+        },
+        {
+            "name": "نادى القتال",
+            "language": "EG",
+            "type": null
+        },
+        {
+            "name": "Мушташ клубу",
+            "language": "KG",
+            "type": null
+        },
+        {
+            "name": "فایت کلاب",
+            "language": "IR",
+            "type": "Mazanderani"
+        },
+        {
+            "name": "फाइट क्लब",
+            "language": "NP",
+            "type": null
+        },
+        {
+            "name": "ਫ਼ਾਈਟ ਕਲੱਬ",
+            "language": "PK",
+            "type": null
+        },
+        {
+            "name": "搏击会",
+            "language": "CN",
+            "type": null
+        },
+        {
+            "name": "鬥陣俱樂部",
+            "language": "TW",
+            "type": null
+        },
+        {
+            "name": "Մարտ Ակումբ",
+            "language": "AM",
+            "type": null
+        }
+    ],
+    "type": "movie",
+    "typeNumber": 1,
+    "year": 1999,
+    "description": "Сотрудник страховой компании страдает хронической бессонницей и отчаянно пытается вырваться из мучительно скучной жизни. Однажды в очередной командировке он встречает некоего Тайлера Дёрдена — харизматического торговца мылом с извращенной философией. Тайлер уверен, что самосовершенствование — удел слабых, а единственное, ради чего стоит жить, — саморазрушение.\n\nПроходит немного времени, и вот уже новые друзья лупят друг друга почем зря на стоянке перед баром, и очищающий мордобой доставляет им высшее блаженство. Приобщая других мужчин к простым радостям физической жестокости, они основывают тайный Бойцовский клуб, который начинает пользоваться невероятной популярностью.",
+    "shortDescription": "Страховой работник разрушает рутину своей благополучной жизни. Культовая драма по книге Чака Паланика",
+    "slogan": "Интриги. Хаос. Мыло",
+    "status": null,
+    "rating": {
+        "kp": 8.674,
+        "imdb": 8.8,
+        "filmCritics": 7.4,
+        "russianFilmCritics": 0,
+        "await": null
+    },
+    "votes": {
+        "kp": 1137256,
+        "imdb": 2473681,
+        "filmCritics": 185,
+        "russianFilmCritics": 2,
+        "await": 0
+    },
+    "movieLength": 139,
+    "totalSeriesLength": null,
+    "seriesLength": null,
+    "ratingMpaa": "r",
+    "ageRating": 18,
+    "poster": {
+        "url": "https://image.openmoviedb.com/kinopoisk-images/4716873/85b585ea-410f-4d1c-aaa5-8d242756c2a4/600x900",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-images/4716873/85b585ea-410f-4d1c-aaa5-8d242756c2a4/300x450"
+    },
+    "backdrop": {
+        "url": "https://image.openmoviedb.com/kinopoisk-ott-images/1534341/2a00000187eb2008488548c47201a517c08b/1344x756",
+        "previewUrl": "https://image.openmoviedb.com/kinopoisk-ott-images/1534341/2a00000187eb2008488548c47201a517c08b/678x380"
+    },
+    "genres": [
+        {
+            "name": "триллер"
+        },
+        {
+            "name": "драма"
+        },
+        {
+            "name": "криминал"
+        }
+    ],
+    "countries": [
+        {
+            "name": "США"
+        },
+        {
+            "name": "Германия"
+        }
+    ],
+    "persons": [
+        {
+            "id": 25774,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25774.jpg",
+            "name": "Эдвард Нортон",
+            "enName": "Edward Norton",
+            "description": "рассказчик",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25584,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25584.jpg",
+            "name": "Брэд Питт",
+            "enName": "Brad Pitt",
+            "description": "Tyler Durden",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25775,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25775.jpg",
+            "name": "Хелена Бонем Картер",
+            "enName": "Helena Bonham Carter",
+            "description": "Marla Singer",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 14127,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_14127.jpg",
+            "name": "Мит Лоаф",
+            "enName": "Meat Loaf",
+            "description": "Robert Paulsen (в титрах: Meat Loaf Aday)",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25776,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25776.jpg",
+            "name": "Зэк Гренье",
+            "enName": "Zach Grenier",
+            "description": "Richard Chesler (Regional Manager)",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 8151,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_8151.jpg",
+            "name": "Холт Маккэллани",
+            "enName": "Holt McCallany",
+            "description": "The Mechanic",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 1876,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1876.jpg",
+            "name": "Джаред Лето",
+            "enName": "Jared Leto",
+            "description": "Angel Face",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 7241,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7241.jpg",
+            "name": "Эйон Бэйли",
+            "enName": "Eion Bailey",
+            "description": "Ricky",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 8460,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_8460.jpg",
+            "name": "Ричмонд Аркетт",
+            "enName": "Richmond Arquette",
+            "description": "Intern at Hospital",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25777,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25777.jpg",
+            "name": "Дэвид Эндрюс",
+            "enName": "David Andrews",
+            "description": "Thomas at Remaining Men Together",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 22981,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_22981.jpg",
+            "name": "Джордж Магуайр",
+            "enName": "George Maguire",
+            "description": "Group Leader - Remaining Men Together",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 703823,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_703823.jpg",
+            "name": "Эжени Бондюран",
+            "enName": "Eugenie Bondurant",
+            "description": "Weeping Woman - Onward and Upward",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 7900,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7900.jpg",
+            "name": "Кристина Кэбот",
+            "enName": "Christina Cabot",
+            "description": "Leader - Partners in Positivity",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25779,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25779.jpg",
+            "name": "Сидни «Биг Дог» Колстон",
+            "enName": "Sydney «Big Dawg» Colston",
+            "description": "Speaker - Free and Clear",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 24276,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_24276.jpg",
+            "name": "Рэйчел Сингер",
+            "enName": "Rachel Singer",
+            "description": "Chloe",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25780,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25780.jpg",
+            "name": "Кристи Кроненвет",
+            "enName": "Christie Cronenweth",
+            "description": "Airline Check-In Attendant",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 11415,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_11415.jpg",
+            "name": "Тим ДеЗарн",
+            "enName": "Tim DeZarn",
+            "description": "Federated Motor Co. Inspector Bird (в титрах: Tim deZarn)",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 6185,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_6185.jpg",
+            "name": "Эзра Баззингтон",
+            "enName": "Ezra Buzzington",
+            "description": "Federated Motor Co. Inspector Dent",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25781,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25781.jpg",
+            "name": "Дидье Даунинг-Джексон",
+            "enName": "Dierdre Downing-Jackson",
+            "description": "Business Woman on Plane",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25782,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25782.jpg",
+            "name": "Боб Стивенсон",
+            "enName": "Bob Stephenson",
+            "description": "Airport Security Officer (в титрах: Robert J. Stephenson)",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 24454,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_24454.jpg",
+            "name": "Чарли Делл",
+            "enName": "Charlie Dell",
+            "description": "Doorman at Pearson Towers",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25783,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25783.jpg",
+            "name": "Роб Ланца",
+            "enName": "Rob Lanza",
+            "description": "Man in Suit",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25784,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25784.jpg",
+            "name": "Дэвид Ли Смит",
+            "enName": "David Lee Smith",
+            "description": "Walter",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25785,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25785.jpg",
+            "name": "Джоэль Биссоннет",
+            "enName": "Joel Bissonnette",
+            "description": "Food Court Maitre D'",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25786,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25786.jpg",
+            "name": "Ивэн Миранд",
+            "enName": "Evan Mirand",
+            "description": "'Steph'",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 14971,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_14971.jpg",
+            "name": "Робби Робинсон",
+            "enName": "Robby Robinson",
+            "description": "Next Month's Opponent",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 7064,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_7064.jpg",
+            "name": "Лу Битти мл.",
+            "enName": "Lou Beatty Jr.",
+            "description": "Cop at Marla's Building",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25787,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25787.jpg",
+            "name": "Том Госсом мл.",
+            "enName": "Thom Gossom Jr.",
+            "description": "Detective Stern",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25788,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25788.jpg",
+            "name": "Валери Бикфорд",
+            "enName": "Valerie Bickford",
+            "description": "Cosmetics Buyer",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25789,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25789.jpg",
+            "name": "Питер Яканджело",
+            "enName": "Peter Iacangelo",
+            "description": "Lou",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25790,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25790.jpg",
+            "name": "Карл Киарфалио",
+            "enName": "Carl Ciarfalio",
+            "description": "Lou's Body Guard (в титрах: Carl N. Ciarfalio)",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25791,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25791.jpg",
+            "name": "Стюарт Блумберг",
+            "enName": "Stuart Blumberg",
+            "description": "Car Salesman",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25792,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25792.jpg",
+            "name": "Тодд Пирс",
+            "enName": "Todd Peirce",
+            "description": "First Man at Auto Shop",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25793,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25793.jpg",
+            "name": "Марк Файт",
+            "enName": "Mark Fite",
+            "description": "Second Man at Auto Shop",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25510,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25510.jpg",
+            "name": "Мэтт Уинстон",
+            "enName": "Matt Winston",
+            "description": "Seminary Student",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25794,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25794.jpg",
+            "name": "Джун Б. Ким",
+            "enName": "Joon B. Kim",
+            "description": "Raymond K. Hessel (в титрах: Joon B. Kim)",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25795,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25795.jpg",
+            "name": "Бенни Мур",
+            "enName": "Bennie Moore",
+            "description": "Bus Driver with Broken Nose (в титрах: Bennie E. Moore Jr.)",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25796,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25796.jpg",
+            "name": "Лорен Санчес",
+            "enName": "Lauren Sanchez",
+            "description": "Channel 4 Reporter (в титрах: W. Lauren Sanchez)",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 23996,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_23996.jpg",
+            "name": "Пэт МакНамара",
+            "enName": "Pat McNamara",
+            "description": "Commissioner Jacobs",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25797,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25797.jpg",
+            "name": "Тайрон Р. Ливингстон",
+            "enName": "Tyrone R. Livingston",
+            "description": "Banquet Speaker",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25798,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25798.jpg",
+            "name": "Оуэн Мастерсон",
+            "enName": "Owen Masterson",
+            "description": "Airport Valet",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 2250,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2250.jpg",
+            "name": "Дэвид Жан Томас",
+            "enName": "David Jean Thomas",
+            "description": "Policeman (в титрах: David Jean-Thomas)",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25799,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25799.jpg",
+            "name": "Пол Карафотс",
+            "enName": "Paul Carafotes",
+            "description": "Salvator - Winking Bartender",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25800,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25800.jpg",
+            "name": "Кристофер Джон Филдс",
+            "enName": "Christopher John Fields",
+            "description": "Proprietor of Dry Cleaners",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 14280,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_14280.jpg",
+            "name": "Андерсон Бурелл",
+            "enName": "Anderson Bourell",
+            "description": "Bruised Bar Patron #1",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25801,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25801.jpg",
+            "name": "Скотч Эллис Лоринг",
+            "enName": "Scotch Ellis Loring",
+            "description": "Bruised Bar Patron #2",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 23384,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_23384.jpg",
+            "name": "Майкл Шамус Уайлз",
+            "enName": "Michael Shamus Wiles",
+            "description": "Bartender in Halo",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25802,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25802.jpg",
+            "name": "Энди Карник",
+            "enName": "Andi Carnick",
+            "description": "Hotel Desk Clerk",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 25803,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25803.jpg",
+            "name": "Эдвард Ковальчук",
+            "enName": "Edward Kowalczyk",
+            "description": "Waiter at Clifton's",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 584,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_584.jpg",
+            "name": "Леонард Термо",
+            "enName": "Leonard Termo",
+            "description": "Desk Sergeant",
+            "profession": "актеры",
+            "enProfession": "actor"
+        },
+        {
+            "id": 910705,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_910705.jpg",
+            "name": "Даст Бразерс",
+            "enName": "Dust Brothers",
+            "description": null,
+            "profession": "композиторы",
+            "enProfession": "composer"
+        },
+        {
+            "id": 608710,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_608710.jpg",
+            "name": "Джон Кинг",
+            "enName": "John King",
+            "description": null,
+            "profession": "композиторы",
+            "enProfession": "composer"
+        },
+        {
+            "id": 608711,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_608711.jpg",
+            "name": "Майкл Симпсон",
+            "enName": "Michael Simpson",
+            "description": null,
+            "profession": "композиторы",
+            "enProfession": "composer"
+        },
+        {
+            "id": 1529214,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1529214.jpg",
+            "name": "Алекс Макдауэлл",
+            "enName": "Alex McDowell",
+            "description": null,
+            "profession": "художники",
+            "enProfession": "designer"
+        },
+        {
+            "id": 751902,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_751902.jpg",
+            "name": "Крис Горак",
+            "enName": "Chris Gorak",
+            "description": null,
+            "profession": "художники",
+            "enProfession": "designer"
+        },
+        {
+            "id": 66409,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_66409.jpg",
+            "name": "Майкл Каплан",
+            "enName": "Michael Kaplan",
+            "description": null,
+            "profession": "художники",
+            "enProfession": "designer"
+        },
+        {
+            "id": 545287,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_545287.jpg",
+            "name": "Джей Харт",
+            "enName": "Jay Hart",
+            "description": null,
+            "profession": "художники",
+            "enProfession": "designer"
+        },
+        {
+            "id": 2944,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_2944.jpg",
+            "name": "Дэвид Финчер",
+            "enName": "David Fincher",
+            "description": null,
+            "profession": "режиссеры",
+            "enProfession": "director"
+        },
+        {
+            "id": 1986744,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1986744.jpg",
+            "name": "Джеймс Хэйгуд",
+            "enName": "James Haygood",
+            "description": null,
+            "profession": "монтажеры",
+            "enProfession": "editor"
+        },
+        {
+            "id": 608712,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_608712.jpg",
+            "name": "Джефф Кроненвет",
+            "enName": "Jeff Cronenweth",
+            "description": null,
+            "profession": "операторы",
+            "enProfession": "operator"
+        },
+        {
+            "id": 25810,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25810.jpg",
+            "name": "Росс Грэйсон Белл",
+            "enName": "Ross Grayson Bell",
+            "description": null,
+            "profession": "продюсеры",
+            "enProfession": "producer"
+        },
+        {
+            "id": 25811,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25811.jpg",
+            "name": "Сиан Чаффин",
+            "enName": "Ceán Chaffin",
+            "description": null,
+            "profession": "продюсеры",
+            "enProfession": "producer"
+        },
+        {
+            "id": 25812,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25812.jpg",
+            "name": "Джон С. Дорси",
+            "enName": "John S. Dorsey",
+            "description": null,
+            "profession": "продюсеры",
+            "enProfession": "producer"
+        },
+        {
+            "id": 20910,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_20910.jpg",
+            "name": "Арт Линсон",
+            "enName": "Art Linson",
+            "description": null,
+            "profession": "продюсеры",
+            "enProfession": "producer"
+        },
+        {
+            "id": 916982,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_916982.jpg",
+            "name": "Евгений Дятлов",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 304211,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_304211.jpg",
+            "name": "Петр Семак",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 37424,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_37424.jpg",
+            "name": "Светлана Смирнова",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 37403,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_37403.jpg",
+            "name": "Вадим Гущин",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 251264,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_251264.jpg",
+            "name": "Евгений Иванов",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 1079049,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1079049.jpg",
+            "name": "Валерий Соловьев",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 273444,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_273444.jpg",
+            "name": "Валерий Захарьев",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 280962,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_280962.jpg",
+            "name": "Татьяна Иванова",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 290584,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_290584.jpg",
+            "name": "Галина Чигинская",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 594007,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_594007.jpg",
+            "name": "Анатолий Дубанов",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 477451,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_477451.jpg",
+            "name": "Алексей Гурьев",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 298501,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_298501.jpg",
+            "name": "Николай Федорцов",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 76127,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_76127.jpg",
+            "name": "Сергей Паршин",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 1175949,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_1175949.jpg",
+            "name": "Геннадий Смирнов",
+            "enName": null,
+            "description": null,
+            "profession": "актеры дубляжа",
+            "enProfession": "voice_actor"
+        },
+        {
+            "id": 25773,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25773.jpg",
+            "name": "Джим Улс",
+            "enName": "Jim Uhls",
+            "description": null,
+            "profession": "сценаристы",
+            "enProfession": "writer"
+        },
+        {
+            "id": 25772,
+            "photo": "https://image.openmoviedb.com/kinopoisk-st-images//actor_iphone/iphone360_25772.jpg",
+            "name": "Чак Паланик",
+            "enName": "Chuck Palahniuk",
+            "description": null,
+            "profession": "сценаристы",
+            "enProfession": "writer"
+        }
+    ],
+    "budget": {
+        "currency": "$",
+        "value": 63000000
+    },
+    "premiere": {
+        "country": null,
+        "digital": null,
+        "cinema": null,
+        "bluray": "2009-12-17T00:00:00.000Z",
+        "dvd": "2007-08-09T00:00:00.000Z",
+        "russia": "2000-01-13T00:00:00.000Z",
+        "world": "1999-09-10T00:00:00.000Z"
+    },
+    "top10": null,
+    "top250": 13,
+    "isSeries": false,
+    "audience": [
+        {
+            "count": 7300000,
+            "country": "США"
+        },
+        {
+            "count": 1372834,
+            "country": "Великобритания"
+        },
+        {
+            "count": 1038108,
+            "country": "Германия"
+        }
+    ],
+    "ticketsOnSale": false,
+    "lists": [
+        "top250",
+        "top500",
+        "popular-films",
+        "hd-revise",
+        "rotten-tomatoes",
+        "top_500_by_empire",
+        "best_1001",
+        "best_iconic_by_av_club",
+        "top-250-2020"
+    ],
+    "networks": null,
+    "createdAt": "2024-04-13T01:36:10.390Z",
+    "updatedAt": "2025-07-05T21:04:36.003Z",
+    "fees": {
+        "russia": {
+            "value": 334590,
+            "currency": "$"
+        },
+        "usa": {
+            "value": 37030102,
+            "currency": "$"
+        },
+        "world": {
+            "value": 100853753,
+            "currency": "$"
+        }
+    },
+    "videos": {
+        "trailers": [
+            {
+                "url": "https://www.youtube.com/embed/wPiyAoTY8Ys",
+                "name": "Трейлер",
+                "site": "youtube",
+                "type": "TRAILER"
+            },
+            {
+                "url": "https://www.youtube.com/embed/dfeUzm6KF4g",
+                "name": "20th Anniversary Trailer",
+                "site": "youtube",
+                "type": "TRAILER"
+            },
+            {
+                "url": "https://www.youtube.com/embed/6JnN1DmbqoU",
+                "name": "Theatrical Trailer (HD Fan Remaster)",
+                "site": "youtube",
+                "type": "TRAILER"
+            },
+            {
+                "url": "https://www.youtube.com/embed/BdJKm16Co6M",
+                "name": "#TBT Trailer",
+                "site": "youtube",
+                "type": "TRAILER"
+            }
+        ]
+    },
+    "logo": {
+        "url": "https://image.openmoviedb.com/tmdb-images/original/y9RSpK5PpMYEkfdCRofBp09KpW9.png",
+        "previewUrl": "https://image.openmoviedb.com/tmdb-images/w500/y9RSpK5PpMYEkfdCRofBp09KpW9.png"
+    },
+    "isTmdbChecked": true,
+    "watchability": {
+        "items": []
+    },
+    "userRatingsParsed": true,
+    "keywordsParsed": true,
+    "studioParsed": true
+}
