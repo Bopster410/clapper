@@ -1,4 +1,4 @@
-export { FilmCard, FilmRatingKp } from './ui';
+export { FilmCard } from './ui';
 export type { FilmCardProps } from './ui';
 
 export { getFilmGenres, getFilmList } from './api';
