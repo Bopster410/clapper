@@ -16,3 +16,7 @@ export type Action =
           type: 'SET_RATING' | 'SET_YEAR';
           payload: NumbersRange;
       };
+
+export interface Props {
+    initValues?: State;
+}

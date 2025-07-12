@@ -1,0 +1,1 @@
+export { ScrollToTopAnchor } from './ui';

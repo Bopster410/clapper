@@ -1,12 +1,21 @@
 import { type FunctionComponent, useEffect, useState } from 'react';
 import type { Props } from './index.types';
-import { Grid } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import { type FilmCardProps, FilmCard } from '@/entities/film';
 import { getFilmList } from '@/entities/film/api';
 import { FiltersCardContainer } from '@/features/filters/ui/index.container.context';
-import { FiltersProvider } from '@/features/filters';
+import { FiltersProvider, UrlFilterParamsSetter } from '@/features/filters';
+import { FavoriteBtn } from '@/features/favorites';
+import {
+    DEFAULT_APP_BAR_HEIGHT,
+    DEFAULT_MAX_RATING,
+    DEFAULT_MAX_YEAR,
+    DEFAULT_MIN_RATING,
+    DEFAULT_MIN_YEAR,
+    DEFAULT_TOP_PADDING,
+} from './index.constants';
 
-export const FilmsWithFilters: FunctionComponent<Props> = () => {
+export const FilmsWithFilters: FunctionComponent<Props> = ({ initFilters }) => {
     const [films, setFilms] = useState<FilmCardProps[]>([]);
     useEffect(() => {
         const timeout = setTimeout(() => {
@@ -35,15 +44,43 @@ export const FilmsWithFilters: FunctionComponent<Props> = () => {
     });
 
     return (
-        <FiltersProvider>
+        <FiltersProvider initValues={initFilters}>
+            <UrlFilterParamsSetter
+                defaultYears={{
+                    min: DEFAULT_MIN_YEAR,
+                    max: DEFAULT_MAX_YEAR,
+                }}
+                defaultRating={{
+                    min: DEFAULT_MIN_RATING,
+                    max: DEFAULT_MAX_RATING,
+                }}
+            />
             <Grid
                 container
                 columnSpacing={2}
             >
-                <Grid size={4}>
-                    <FiltersCardContainer />
+                <Grid size={3.5}>
+                    <Box
+                        sx={{
+                            position: 'sticky',
+                            top: `${
+                                DEFAULT_APP_BAR_HEIGHT + DEFAULT_TOP_PADDING
+                            }px`,
+                        }}
+                    >
+                        <FiltersCardContainer
+                            yearRange={{
+                                min: DEFAULT_MIN_YEAR,
+                                max: DEFAULT_MAX_YEAR,
+                            }}
+                            ratingRange={{
+                                min: DEFAULT_MIN_RATING,
+                                max: DEFAULT_MAX_RATING,
+                            }}
+                        />
+                    </Box>
                 </Grid>
-                <Grid size={8}>
+                <Grid size={8.5}>
                     <Grid
                         spacing={3}
                         container
@@ -59,6 +96,8 @@ export const FilmsWithFilters: FunctionComponent<Props> = () => {
                                     year={year}
                                     imageSrc={imageSrc}
                                     rating={rating}
+                                    slots={{ favoriteBtn: FavoriteBtn }}
+                                    slotsProps={{ favorteBtn: { filmId: id } }}
                                 />
                             </Grid>
                         ))}

@@ -1,1 +1,1 @@
-export { HomePage } from './ui';
+export { HomePage, HomePageContainerSearchParams } from './ui';

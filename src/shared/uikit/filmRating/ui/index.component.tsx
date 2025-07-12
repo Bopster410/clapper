@@ -8,7 +8,7 @@ import {
     RATING_POINTS,
 } from './index.constants';
 
-export const FilmRatingKp: FunctionComponent<Props> = ({
+export const FilmRating: FunctionComponent<Props> = ({
     variant,
     rating,
     range,
@@ -33,7 +33,7 @@ export const FilmRatingKp: FunctionComponent<Props> = ({
 
     return (
         <Typography
-            variant={variant === 'header' ? 'h4' : 'body1'}
+            variant={variant === 'header' ? 'h4' : 'h6'}
             sx={{
                 fontWeight: '700',
                 color: color,

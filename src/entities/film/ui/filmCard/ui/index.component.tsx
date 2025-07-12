@@ -3,13 +3,12 @@ import type { Props } from './index.types';
 import {
     Card,
     CardActionArea,
-    CardContent,
+    CardActions,
     CardHeader,
     CardMedia,
-    Rating,
-    Stack,
     Typography,
 } from '@mui/material';
+import { FilmRating } from '@/shared/uikit/filmRating';
 
 export const FilmCard: FunctionComponent<Props> = ({
     title,
@@ -17,6 +16,8 @@ export const FilmCard: FunctionComponent<Props> = ({
     imageSrc,
     rating,
     id,
+    slots,
+    slotsProps,
 }) => {
     return (
         <Card>
@@ -54,23 +55,19 @@ export const FilmCard: FunctionComponent<Props> = ({
                             {year}
                         </Typography>
                     }
-                />
-                <CardContent>
-                    <Stack
-                        direction='row'
-                        spacing={1}
-                        sx={{ alignItems: 'center' }}
-                    >
-                        <Rating
-                            value={rating}
-                            readOnly
-                            precision={0.1}
-                            size='small'
+                    action={
+                        <FilmRating
+                            variant='body'
+                            rating={rating}
                         />
-                        <Typography variant='subtitle2'>{rating}</Typography>
-                    </Stack>
-                </CardContent>
+                    }
+                />
             </CardActionArea>
+            <CardActions sx={{ paddingTop: 0 }}>
+                {slots && slots.favoriteBtn && (
+                    <slots.favoriteBtn {...slotsProps?.favorteBtn} />
+                )}
+            </CardActions>
         </Card>
     );
 };
