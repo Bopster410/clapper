@@ -9,6 +9,7 @@ import {
     Typography,
 } from '@mui/material';
 import { FilmRating } from '@/shared/uikit/filmRating';
+import { CustomLink } from '@/shared/uikit/customLink';
 
 export const FilmCard: FunctionComponent<Props> = ({
     title,
@@ -21,7 +22,10 @@ export const FilmCard: FunctionComponent<Props> = ({
 }) => {
     return (
         <Card>
-            <CardActionArea href={`/film/${id}`}>
+            <CardActionArea
+                LinkComponent={CustomLink}
+                href={`/film/${id}`}
+            >
                 <CardMedia
                     image={imageSrc}
                     title={title}

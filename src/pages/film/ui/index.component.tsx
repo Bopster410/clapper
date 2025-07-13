@@ -1,8 +1,11 @@
-import { Box, Chip, Grid, Typography } from '@mui/material';
+import { Box, Button, Chip, Grid, Typography } from '@mui/material';
 import type { FunctionComponent } from 'react';
 // import { useParams } from 'react-router';
 import type { Props } from './index.types';
 import { FilmRating } from '@/shared/uikit/filmRating';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import { FavoriteBtn } from '@/features/favorites';
 
 export const FilmPage: FunctionComponent<Props> = ({
     title,
@@ -12,6 +15,9 @@ export const FilmPage: FunctionComponent<Props> = ({
     description,
     rating,
     genres,
+    isInFavorites,
+    onFavoritesClick,
+    id,
 }) => {
     return (
         <Grid
@@ -23,6 +29,40 @@ export const FilmPage: FunctionComponent<Props> = ({
                     style={{ width: '100%' }}
                     src={poster}
                 />
+                <Button
+                    endIcon={
+                        isInFavorites ? (
+                            <FavoriteIcon />
+                        ) : (
+                            <FavoriteBorderIcon />
+                        )
+                    }
+                    size='large'
+                    fullWidth
+                    variant='outlined'
+                    onClick={() => {
+                        if (onFavoritesClick)
+                            onFavoritesClick(id, {
+                                id: id,
+                                title: title.name,
+                                year:
+                                    year ??
+                                    (releaseYears && releaseYears[0].start) ??
+                                    0,
+                                imageSrc: poster,
+                                rating: rating.kp,
+                                slots: { favoriteBtn: FavoriteBtn },
+                                slotsProps: {
+                                    favorteBtn: {
+                                        filmId: id,
+                                        isFavorite: true,
+                                    },
+                                },
+                            });
+                    }}
+                >
+                    {isInFavorites ? 'В избранном' : 'Добавить'}
+                </Button>
             </Grid>
             <Grid size={6}>
                 <Box sx={{ marginBottom: '16px' }}>

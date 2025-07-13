@@ -26,7 +26,7 @@ export const HomePageContainerSearchParams = () => {
                               max: Number.parseFloat(ratingMaxParam),
                           }
                         : null,
-                genres: genres ? JSON.parse(genres) : null,
+                genres: genres ? JSON.parse(genres) : [],
             }}
         />
     );

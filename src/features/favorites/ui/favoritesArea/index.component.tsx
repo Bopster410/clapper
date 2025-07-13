@@ -1,23 +1,31 @@
-// import {
-//     useEffect,
-//     useRef,
-//     type FunctionComponent,
-//     type PropsWithChildren,
-// } from 'react';
-// import type { Props } from './index.types';
-// import { Box, Button } from '@mui/material';
-// import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-// import FavoriteIcon from '@mui/icons-material/Favorite';
+import { type FunctionComponent, type PropsWithChildren } from 'react';
+import type { Props } from './index.types';
+import { Box } from '@mui/material';
 
-// export const FavoriteBtn: FunctionComponent<PropsWithChildren<Props>> = ({
-//     children,
-//     onFavoritesClick,
-// }) => {
-//     const handleAreaClick = (
-//         event: React.MouseEvent<HTMLDivElement, MouseEvent>
-//     ) => {
-//         const withId
-//     };
+export const FavoritesArea: FunctionComponent<PropsWithChildren<Props>> = ({
+    children,
+    onFavoritesClick,
+    ...props
+}) => {
+    const handleAreaClick = (
+        event: React.MouseEvent<HTMLDivElement, MouseEvent>
+    ) => {
+        // event.preventDefault()
+        const withId = (event.target as Element).closest(
+            '[data-film-id]'
+        ) as HTMLElement;
+        if (!withId || !withId.dataset.filmId) return;
 
-//     return <div onClick={handleAreaClick}>{children}</div>;
-// };
+        const filmId = Number.parseInt(withId.dataset.filmId);
+        onFavoritesClick(filmId);
+    };
+
+    return (
+        <Box
+            {...props}
+            onClick={handleAreaClick}
+        >
+            {children}
+        </Box>
+    );
+};
