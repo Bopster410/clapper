@@ -1,2 +1,2 @@
 export { FilmPage } from './index.component';
-export { FilmPageContainerLoader } from './index.container.loader';
+export { FilmPageContainer } from './index.container';

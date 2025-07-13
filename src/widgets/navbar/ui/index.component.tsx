@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import MovieOutlinedIcon from '@mui/icons-material/MovieOutlined';
 import { Box, type SxProps, type Theme } from '@mui/material';
+import { Link, NavLink } from 'react-router';
 
 interface Props {
     children?: React.ReactElement<{ elevation?: number; sx: SxProps<Theme> }>;
@@ -36,15 +37,16 @@ export const Navbar = (props: Props) => {
         <>
             <ElevationScroll {...props}>
                 <AppBar>
-                    <Toolbar>
+                    <Toolbar sx={{ display: 'flex' }}>
                         <Box
-                            component='a'
-                            href='/'
+                            component={Link}
+                            to='/'
                             sx={{
                                 color: 'inherit',
                                 textDecoration: 'none',
                                 display: 'flex',
                                 alignItems: 'center',
+                                flexGrow: '1',
                             }}
                         >
                             <MovieOutlinedIcon />
@@ -56,6 +58,15 @@ export const Navbar = (props: Props) => {
                                 Clapper
                             </Typography>
                         </Box>
+                        <NavLink
+                            to='/favorites'
+                            style={({ isActive }) => ({
+                                textDecoration: 'none',
+                                color: isActive ? '#BBB' : 'white',
+                            })}
+                        >
+                            <Typography variant='h6'>Избранное</Typography>
+                        </NavLink>
                     </Toolbar>
                 </AppBar>
             </ElevationScroll>

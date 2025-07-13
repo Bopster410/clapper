@@ -4,3 +4,7 @@
     --color-orange-500: #ff9800;
     --color-red-500: #f44336;
 }
+
+.overflow-hidden {
+    overflow: hidden;
+}

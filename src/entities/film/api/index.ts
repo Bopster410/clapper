@@ -11,6 +11,7 @@ export function getFilmGenres(): Genre[] {
 }
 
 export function getFilmById(id: number): FilmResponseLong {
+    console.log(id);
     return FILM_BY_ID_MOCK;
 }
 
