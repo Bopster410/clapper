@@ -1,4 +1,4 @@
-import { useCallback, useContext } from 'react';
+import { useCallback, useContext, useMemo } from 'react';
 import { FiltersActionsContext, FiltersStateContext } from './index.context';
 import type { Genre } from '@/entities/film';
 import type { NumbersRange } from '@/shared/types';
@@ -44,5 +44,7 @@ export function useFiltersActions() {
 }
 
 export function useFilters() {
-    return [useFiltersState(), useFiltersActions()] as const;
+    const state = useFiltersState();
+    const actions = useFiltersActions();
+    return useMemo(() => [state, actions] as const, [state, actions]);
 }

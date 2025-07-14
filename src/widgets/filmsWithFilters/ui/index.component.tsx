@@ -1,11 +1,8 @@
-import { type FunctionComponent, useEffect, useState } from 'react';
+import { type FunctionComponent } from 'react';
 import type { Props } from './index.types';
 import { Box, Grid } from '@mui/material';
-import { type FilmCardProps, FilmCard } from '@/entities/film';
-import { getFilmList } from '@/entities/film/api';
 import { FiltersCardContainer } from '@/features/filters/ui/index.container.context';
 import { FiltersProvider, UrlFilterParamsSetter } from '@/features/filters';
-import { FavoriteBtn, FavoritesArea } from '@/features/favorites';
 import {
     DEFAULT_APP_BAR_HEIGHT,
     DEFAULT_MAX_RATING,
@@ -14,39 +11,10 @@ import {
     DEFAULT_MIN_YEAR,
     DEFAULT_TOP_PADDING,
 } from './index.constants';
+import { FilmsListApiLoader } from './filmsList';
+import { FilmsListWithFavorite } from '@/features/favorites';
 
-export const FilmsWithFilters: FunctionComponent<Props> = ({
-    initFilters,
-    onFavoritesClick,
-    isInFavorites,
-}) => {
-    const [films, setFilms] = useState<FilmCardProps[]>([]);
-    useEffect(() => {
-        const timeout = setTimeout(() => {
-            setFilms([
-                ...getFilmList().docs.map(
-                    ({
-                        name,
-                        alternativeName,
-                        // releaseYears,
-                        id,
-                        year,
-                        rating,
-                        poster,
-                    }) => ({
-                        id,
-                        title: name ?? alternativeName ?? 'неизвестный фильм',
-                        year,
-                        rating: rating.kp,
-                        imageSrc: poster?.previewUrl,
-                    })
-                ),
-            ]);
-        }, 1000);
-
-        return () => clearTimeout(timeout);
-    });
-
+export const FilmsWithFilters: FunctionComponent<Props> = ({ initFilters }) => {
     return (
         <FiltersProvider initValues={initFilters}>
             <UrlFilterParamsSetter
@@ -85,47 +53,9 @@ export const FilmsWithFilters: FunctionComponent<Props> = ({
                     </Box>
                 </Grid>
                 <Grid size={8.5}>
-                    <FavoritesArea
-                        onFavoritesClick={(id) => {
-                            if (!onFavoritesClick) return;
-
-                            const filmProps = films.find((v) => v.id === id);
-                            if (!filmProps) return;
-
-                            onFavoritesClick(id, filmProps);
-                        }}
-                    >
-                        <Grid
-                            spacing={3}
-                            container
-                        >
-                            {films.map(
-                                ({ id, title, year, rating, imageSrc }) => (
-                                    <Grid
-                                        size={{ xs: 6, md: 3 }}
-                                        // sx={{ maxWidth: 150 }}
-                                    >
-                                        <FilmCard
-                                            id={id}
-                                            title={title}
-                                            year={year}
-                                            imageSrc={imageSrc}
-                                            rating={rating}
-                                            slots={{ favoriteBtn: FavoriteBtn }}
-                                            slotsProps={{
-                                                favorteBtn: {
-                                                    filmId: id,
-                                                    isFavorite: isInFavorites
-                                                        ? isInFavorites(id)
-                                                        : false,
-                                                },
-                                            }}
-                                        />
-                                    </Grid>
-                                )
-                            )}
-                        </Grid>
-                    </FavoritesArea>
+                    <FilmsListApiLoader
+                        FilmsListComponent={FilmsListWithFavorite}
+                    />
                 </Grid>
             </Grid>
         </FiltersProvider>

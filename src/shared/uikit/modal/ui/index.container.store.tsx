@@ -1,5 +1,4 @@
 import type { FunctionComponent } from 'react';
-import { useRootUiStore } from '@/app/providers/rootUi';
 import { Modal } from './index.component';
 import { observer } from 'mobx-react-lite';
 import { rootUiStore } from '@/app/store/rootUi';

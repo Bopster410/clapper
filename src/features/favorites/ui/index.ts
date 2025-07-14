@@ -1,5 +1,8 @@
-export { FavoriteBtn } from './favoriteBtn';
-export { FavoritesArea } from './favoritesArea';
+export {
+    FavoriteBtn,
+    FavoritesArea,
+    FilmsListWithFavorite,
+} from './filmsWithFavorites';
 export { AddToFavoritesAssert } from './assert';
 export {
     LocalStorageWriter,

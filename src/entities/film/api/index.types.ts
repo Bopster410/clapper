@@ -26,4 +26,12 @@ export interface FilmResponseLong extends FilmResponseShort {
     genres: { name: string }[];
 }
 
+export type SearchWIthFiltersRequest = {
+    page?: number;
+    limit?: number;
+    rating?: { min: number; max: number };
+    years?: { min: number; max: number };
+    genres?: string[];
+};
+
 export type Genre = { name: string; slug: string };

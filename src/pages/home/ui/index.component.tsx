@@ -1,7 +1,7 @@
 import type { FunctionComponent } from 'react';
 import type { Props } from './index.types';
-import { FilmsWithFiltersContainerStore } from '@/widgets/filmsWithFilters/ui/index.container.store';
+import { FilmsWithFilters } from '@/widgets/filmsWithFilters';
 
 export const HomePage: FunctionComponent<Props> = ({ filterParams }) => {
-    return <FilmsWithFiltersContainerStore initFilters={filterParams} />;
+    return <FilmsWithFilters initFilters={filterParams} />;
 };

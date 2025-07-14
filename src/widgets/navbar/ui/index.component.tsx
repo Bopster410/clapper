@@ -21,12 +21,10 @@ function ElevationScroll(props: Props) {
 
     return children
         ? React.cloneElement(children, {
-              elevation: trigger ? 4 : 0,
+              elevation: 0,
               sx: {
                   backdropFilter: trigger ? 'blur(10px)' : 'none',
-                  backgroundColor: trigger
-                      ? 'rgba(25, 118, 210, 0.8)'
-                      : 'primary.main',
+                  backgroundColor: 'rgba(25, 118, 210, 0.9)',
               },
           })
         : null;
