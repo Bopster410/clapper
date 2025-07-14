@@ -2,6 +2,7 @@ import { type FunctionComponent } from 'react';
 import type { Props } from './index.types';
 import {
     Box,
+    // Button,
     Card,
     CardContent,
     CardHeader,
@@ -112,6 +113,7 @@ export const FiltersCard: FunctionComponent<Props> = ({
                             maxRating={maxRating}
                         />
                     </Box>
+                    {/* <Button onClick={() => {}}>Применить</Button> */}
                 </Stack>
             </CardContent>
         </Card>

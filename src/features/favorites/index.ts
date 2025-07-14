@@ -1,1 +1,6 @@
-export { FavoriteBtn, FavoritesArea, AddToFavoritesAssert } from './ui';
+export {
+    FavoriteBtn,
+    FavoritesArea,
+    AddToFavoritesAssert,
+    FilmsListWithFavorite,
+} from './ui';

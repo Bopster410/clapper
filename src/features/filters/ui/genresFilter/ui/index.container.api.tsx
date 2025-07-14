@@ -12,19 +12,18 @@ export const GenresFilterContainerApi: FunctionComponent<ContainerApiProps> = ({
 
     const handleOpen = () => {
         setOpen(true);
-        (async () => {
-            setLoading(true);
-            const genres = getFilmGenres();
-            await new Promise((resolve) => setTimeout(resolve, 1000));
-            setLoading(false);
+        if (options.length === 0)
+            (async () => {
+                setLoading(true);
+                const genres = await getFilmGenres();
+                setLoading(false);
 
-            setOptions(genres);
-        })();
+                setOptions(genres.data);
+            })();
     };
 
     const handleClose = () => {
         setOpen(false);
-        setOptions([]);
     };
 
     return (

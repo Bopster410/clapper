@@ -11,3 +11,4 @@ export {
     useFiltersState,
     type FiltersState,
 } from './model';
+export * from './hooks';
